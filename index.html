@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body{
+            background-color: rgb(13, 19, 43);
+            color: white;
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body class="container">
+    <h1>Formulário</h1>
+		
+		<form class="centered-element" class="form m-2" action="login.php" method="post">
+		
+		<fieldset>
+			<legend>Log-in </legend>
+			<label class="form-label" for="email">Email:</label>
+			<input style="width: 400px;" class="form-control" type="email" minlength="3"
+			id="email" name="email"/>
+			<label class="form-label" for="password">Password:</label>
+			<input style="width: 400px;" class="form-control" type="password" minlength="8"
+			id="password" name="password" />
+            <label class="form-label" for="confirm_password">Confirm Password:</label>
+            <input style="width: 400px;" class="form-control" type="password" minlength="8"
+			id="confirm_password" name="confirm_password" />
+			
+		
+		
+		
+		<fieldset>
+			<button  style="width: 180px;" class="btn btn-primary m-2" type="submit">Enviar sua mensagem</button>
+			<button  style="width: 180px;" class="btn btn-primary m-2" type="reset">Limpar o formulário</button>
+		</fieldset>
+        </form>
+
+</body>
+</html>
